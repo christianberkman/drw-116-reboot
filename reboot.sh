@@ -28,7 +28,7 @@ fi
 # Submit (GET) login form with correct referal
 #
 	curl --referer "http://$ROUETER_IP/uir/401.htm?Surl=uir//ram/www/rebo.htm" \
-	"http://10.0.0.1/log/in?un=$ROUTER_USER&pw=$ROUTER_PWD&rd=%2Fuir%2F%2Fram%2Fwww%2Frebo.htm&rd2=%2Fuir%2Fwanst.htm&Nrd=1"
+	"http://$ROUTER_IP/log/in?un=$ROUTER_USER&pw=$ROUTER_PWD&rd=%2Fuir%2F%2Fram%2Fwww%2Frebo.htm&rd2=%2Fuir%2Fwanst.htm&Nrd=1"
 
 #
 # GET Actual reboot page
